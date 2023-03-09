@@ -1,10 +1,15 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Halvar Breitschrift";
+  /* Браузер сначала попробует найти шрифт локально */
+  src: url("./assets/HalvarBreit-Bd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  /* Браузер сначала попробует найти шрифт локально */
+  src: url("./assets/ofont.ru_Open Sans.ttf") format("truetype");
+}
 @media (max-width: 450px) {
-  @font-face {
-    font-family: "Halvar Breitschrift";
-    /* Браузер сначала попробует найти шрифт локально */
-    src: local("Halvar Breitschrift"), url("./assets/HalvarBreit-Lt.ttf") format("ttf");
-  }
   body {
     background-color: #F5F5F5;
   }
@@ -62,7 +67,7 @@
     color: #000000;
   }
   .main .offer .subtitle {
-    width: 200px;
+    width: 214px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 518;
@@ -119,10 +124,31 @@
     display: flex;
     margin-left: 40px;
     margin-top: -15px;
+    font-family: "Halvar Breitschrift";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.2204px;
+    line-height: 35px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.35288px;
+    color: #000000;
   }
   .main .slider-container .slider .slide .text {
     display: flex;
     margin-left: 40px;
     margin-top: -10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 518;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8F8F8F;
+    font-stretch: 100;
   }
 }/*# sourceMappingURL=style.css.map */
