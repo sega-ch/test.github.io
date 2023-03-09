@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   @font-face {
     font-family: "Halvar Breitschrift";
     /* Браузер сначала попробует найти шрифт локально */
