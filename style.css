@@ -1,0 +1,118 @@
+@media (max-width: 400px) {
+  .main {
+    overflow-x: hidden;
+  }
+  .main .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main .header .nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 52px;
+  }
+  .main .header .nav .logo {
+    margin-left: 16px;
+  }
+  .main .header .nav .nav-phone {
+    display: flex;
+    justify-content: center;
+    margin-left: 43.5px;
+    width: 170px;
+    font-family: "Halvar Breitschrift";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .main .header .nav .nav-button {
+    border: none;
+    background-image: url("./assets/Group34287.svg");
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 29px;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+  .main .offer {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .offer .title {
+    font-family: "Halvar Breitschrift";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.3352px;
+    line-height: 52px;
+    /* identical to box height, or 84% */
+    text-align: center;
+    letter-spacing: -2.33153px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .main .offer .subtitle {
+    width: 200px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 518;
+    font-size: 13px;
+    line-height: 135%;
+    /* or 18px */
+    margin-left: 95px;
+    text-align: center;
+    color: #000000;
+  }
+  .main .offer .backBoatPic {
+    position: absolute;
+    width: 345.76px;
+    height: 341px;
+    left: 14.62px;
+    top: 375px;
+    background: url(.png);
+    filter: drop-shadow(0px 24.6738px 18.9798px rgba(0, 0, 0, 0.02));
+    border-radius: 100.014px;
+    background-image: url("./assets/boat_white_inage.png");
+  }
+  .main .offer .buttonCall {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 257px;
+    top: 550px;
+    background-image: url("./assets/call.png");
+  }
+  .main .slider-container {
+    overflow-x: scroll;
+  }
+  .main .slider-container .slider {
+    display: flex;
+    justify-content: start;
+    margin-top: 60vh;
+  }
+  .main .slider-container .slider .slide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 58.5px;
+    width: 283px;
+    height: 171px;
+    background-color: wheat;
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+  }
+  .main .slider-container .slider .slide .slide-img {
+    display: flex;
+    margin-top: -70px;
+  }
+  .main .slider-container .slider .slide .title {
+    display: flex;
+    margin-left: 40px;
+    margin-top: -15px;
+  }
+  .main .slider-container .slider .slide .text {
+    display: flex;
+    margin-left: 40px;
+    margin-top: -10px;
+  }
+}/*# sourceMappingURL=style.css.map */
